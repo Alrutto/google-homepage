@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   /* background-color: #AAA;    */
+}
+
+li{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Liberation Sans'
+}
+.liright{
+    float: right;
+    padding: 14px 8px;
+}
+
+button.sign{
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 6px 11px;
+    border-radius: 2px;
+    font-size: 13px;
+}
